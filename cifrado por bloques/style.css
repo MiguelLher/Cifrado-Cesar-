@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3280c9; /* Fondo de color verde */
+    color: #FFFFFF; /* Texto en color blanco */
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #424242; /* Fondo de color gris oscuro */
+    box-shadow: 0px 0px 10px #888888;
+}
+
+h1 {
+    color: #FDD835; /* Título en color amarillo */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: #FFFFFF; /* Texto en color blanco */
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Color de botón "Limpiar" */
+button:nth-child(3) {
+    background-color: #E53935; /* Rojo */
+}

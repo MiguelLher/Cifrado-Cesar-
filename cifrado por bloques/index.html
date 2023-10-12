@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifrado AES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cifrado AES</h1>
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" placeholder="Ingrese el texto">
+        <br><br>
+        <button onclick="cifrarTexto()">Cifrar</button>
+        <button onclick="descifrarTexto()">Descifrar</button>
+        <br><br>
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" readonly>
+        <button onclick="limpiarCampos()">Limpiar</button>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+
+</body>
+</html>
